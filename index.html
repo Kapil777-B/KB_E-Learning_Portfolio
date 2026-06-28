@@ -438,13 +438,13 @@ footer strong{color:var(--a1)}
       <!-- <button class="filt" onclick="filt('id',this)">Instructional Design</button> -->
     </div>
     <div class="vrow">
-      <button class="vbtn on" onclick="setV('carousel',this)" title="Carousel"><i data-lucide="layout-panel-left" style="width:14px;height:14px"></i></button>
-      <button class="vbtn" onclick="setV('grid',this)" title="Grid"><i data-lucide="grid-3x3" style="width:14px;height:14px"></i></button>
+      <button class="vbtn" onclick="setV('carousel',this)" title="Carousel"><i data-lucide="layout-panel-left" style="width:14px;height:14px"></i></button>
+      <button class="vbtn on" onclick="setV('grid',this)" title="Grid"><i data-lucide="grid-3x3" style="width:14px;height:14px"></i></button>
       <button class="vbtn" onclick="setV('list',this)" title="List"><i data-lucide="list" style="width:14px;height:14px"></i></button>
     </div>
   </div>
-  <div id="vw-carousel"><div id="carWrap"></div><div class="car-nav"><button class="cnav-btn" onclick="cMove(-1)"><i data-lucide="chevron-left" style="width:15px;height:15px"></i></button><div class="cdots" id="cdots"></div><button class="cnav-btn" onclick="cMove(1)"><i data-lucide="chevron-right" style="width:15px;height:15px"></i></button></div></div>
-  <div id="vw-grid" style="display:none"><div class="pgrid" id="pgrid"></div></div>
+  <div id="vw-carousel" style="display: none;"><div id="carWrap"></div><div class="car-nav"><button class="cnav-btn" onclick="cMove(-1)"><i data-lucide="chevron-left" style="width:15px;height:15px"></i></button><div class="cdots" id="cdots"></div><button class="cnav-btn" onclick="cMove(1)"><i data-lucide="chevron-right" style="width:15px;height:15px"></i></button></div></div>
+  <div id="vw-grid"><div class="pgrid" id="pgrid"></div></div>
   <div id="vw-list" style="display:none"><div class="plist" id="plist"></div></div>
 </div>
 </section>
